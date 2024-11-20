@@ -1,0 +1,30 @@
+{
+    "name": "email-otp-module",
+    "version": "1.0.0",
+    "description": "A Node.js module for generating and validating OTPs sent via email.",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js",
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-repo/email-otp-module.git"
+    },
+    "keywords": [
+        "email",
+        "otp",
+        "verification",
+        "nodejs",
+        "module"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "nodemailer": "^6.9.16"
+    },
+    "devDependencies": {
+        "jest": "^29.5.0"
+    }
+}
